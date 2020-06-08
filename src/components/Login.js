@@ -1,4 +1,4 @@
-// Login.js
+// src/components/Login.js
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 
