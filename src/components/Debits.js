@@ -24,9 +24,6 @@ class Debits extends Component {
     handleChange = (e) => {
         const addDebit = { ...this.state.addDebit };
         addDebit[e.target.name] = e.target.value;
-        if (e.target.name === "amount") {
-            addDebit.amount = e.target.value;
-        }
         this.setState({
             addDebit,
         })

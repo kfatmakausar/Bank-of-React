@@ -25,9 +25,6 @@ class Credits extends Component {
     handleChange = (e) => {
         const addCredit = { ...this.state.addCredit };
         addCredit[e.target.name] = e.target.value;
-        if (e.target.name === "amount") {
-            addCredit.amount = e.target.value;
-        }
         this.setState({
             addCredit,
         })
